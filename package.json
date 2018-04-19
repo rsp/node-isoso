@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "isoso": "isoso.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rsp/node-isoso.git"
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rsp/node-isoso/issues"
   },
-  "homepage": "https://github.com/rsp/node-isoso#readme"
+  "homepage": "https://github.com/rsp/node-isoso#readme",
+  "dependencies": {
+    "luxon": "^1.0.0"
+  }
 }
