@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 const { DateTime: dt } = require('luxon');
@@ -47,4 +49,3 @@ for (let o of a) {
 if (!d.isValid) process.exit(3);
 
 console.log(d.toISO());
-
